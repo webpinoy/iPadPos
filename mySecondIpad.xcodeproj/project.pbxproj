@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D593760D13AE253C00E09C5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D593760C13AE253C00E09C5A /* UIKit.framework */; };
+		D593760F13AE253C00E09C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D593760E13AE253C00E09C5A /* Foundation.framework */; };
+		D593761113AE253C00E09C5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D593761013AE253C00E09C5A /* CoreGraphics.framework */; };
+		D593761713AE253D00E09C5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D593761513AE253D00E09C5A /* InfoPlist.strings */; };
+		D593761A13AE253D00E09C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D593761913AE253D00E09C5A /* main.m */; };
+		D593761D13AE253D00E09C5A /* mySecondIpadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D593761C13AE253D00E09C5A /* mySecondIpadAppDelegate.m */; };
+		D593762013AE253D00E09C5A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D593761E13AE253D00E09C5A /* MainWindow.xib */; };
+		D593762313AE253D00E09C5A /* mySecondIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D593762213AE253D00E09C5A /* mySecondIpadViewController.m */; };
+		D593762613AE253D00E09C5A /* mySecondIpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D593762413AE253D00E09C5A /* mySecondIpadViewController.xib */; };
+		D593762D13AE253E00E09C5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D593760C13AE253C00E09C5A /* UIKit.framework */; };
+		D593762E13AE253E00E09C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D593760E13AE253C00E09C5A /* Foundation.framework */; };
+		D593762F13AE253E00E09C5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D593761013AE253C00E09C5A /* CoreGraphics.framework */; };
+		D593763713AE253E00E09C5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D593763513AE253E00E09C5A /* InfoPlist.strings */; };
+		D593763A13AE253E00E09C5A /* mySecondIpadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D593763913AE253E00E09C5A /* mySecondIpadTests.h */; };
+		D593763C13AE253E00E09C5A /* mySecondIpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D593763B13AE253E00E09C5A /* mySecondIpadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D593763013AE253E00E09C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59375FF13AE253B00E09C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D593760713AE253C00E09C5A;
+			remoteInfo = mySecondIpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D593760813AE253C00E09C5A /* mySecondIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySecondIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D593760C13AE253C00E09C5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D593760E13AE253C00E09C5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D593761013AE253C00E09C5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D593761413AE253D00E09C5A /* mySecondIpad-Info.plist */ = {isa = PBXFileReference; path = "mySecondIpad-Info.plist"; sourceTree = "<group>"; };
+		D593761613AE253D00E09C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593761813AE253D00E09C5A /* mySecondIpad-Prefix.pch */ = {isa = PBXFileReference; path = "mySecondIpad-Prefix.pch"; sourceTree = "<group>"; };
+		D593761913AE253D00E09C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D593761B13AE253D00E09C5A /* mySecondIpadAppDelegate.h */ = {isa = PBXFileReference; path = mySecondIpadAppDelegate.h; sourceTree = "<group>"; };
+		D593761C13AE253D00E09C5A /* mySecondIpadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySecondIpadAppDelegate.m; sourceTree = "<group>"; };
+		D593761F13AE253D00E09C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D593762113AE253D00E09C5A /* mySecondIpadViewController.h */ = {isa = PBXFileReference; path = mySecondIpadViewController.h; sourceTree = "<group>"; };
+		D593762213AE253D00E09C5A /* mySecondIpadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySecondIpadViewController.m; sourceTree = "<group>"; };
+		D593762513AE253D00E09C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/mySecondIpadViewController.xib; sourceTree = "<group>"; };
+		D593762C13AE253E00E09C5A /* mySecondIpadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySecondIpadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D593763413AE253E00E09C5A /* mySecondIpadTests-Info.plist */ = {isa = PBXFileReference; path = "mySecondIpadTests-Info.plist"; sourceTree = "<group>"; };
+		D593763613AE253E00E09C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593763813AE253E00E09C5A /* mySecondIpadTests-Prefix.pch */ = {isa = PBXFileReference; path = "mySecondIpadTests-Prefix.pch"; sourceTree = "<group>"; };
+		D593763913AE253E00E09C5A /* mySecondIpadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mySecondIpadTests.h; sourceTree = "<group>"; };
+		D593763B13AE253E00E09C5A /* mySecondIpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySecondIpadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D593760513AE253C00E09C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D593760D13AE253C00E09C5A /* UIKit.framework in Frameworks */,
+				D593760F13AE253C00E09C5A /* Foundation.framework in Frameworks */,
+				D593761113AE253C00E09C5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D593762813AE253E00E09C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D593762D13AE253E00E09C5A /* UIKit.framework in Frameworks */,
+				D593762E13AE253E00E09C5A /* Foundation.framework in Frameworks */,
+				D593762F13AE253E00E09C5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59375FD13AE253B00E09C5A = {
+			isa = PBXGroup;
+			children = (
+				D593761213AE253D00E09C5A /* mySecondIpad */,
+				D593763213AE253E00E09C5A /* mySecondIpadTests */,
+				D593760B13AE253C00E09C5A /* Frameworks */,
+				D593760913AE253C00E09C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D593760913AE253C00E09C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D593760813AE253C00E09C5A /* mySecondIpad.app */,
+				D593762C13AE253E00E09C5A /* mySecondIpadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D593760B13AE253C00E09C5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D593760C13AE253C00E09C5A /* UIKit.framework */,
+				D593760E13AE253C00E09C5A /* Foundation.framework */,
+				D593761013AE253C00E09C5A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D593761213AE253D00E09C5A /* mySecondIpad */ = {
+			isa = PBXGroup;
+			children = (
+				D593761B13AE253D00E09C5A /* mySecondIpadAppDelegate.h */,
+				D593761C13AE253D00E09C5A /* mySecondIpadAppDelegate.m */,
+				D593761E13AE253D00E09C5A /* MainWindow.xib */,
+				D593762113AE253D00E09C5A /* mySecondIpadViewController.h */,
+				D593762213AE253D00E09C5A /* mySecondIpadViewController.m */,
+				D593762413AE253D00E09C5A /* mySecondIpadViewController.xib */,
+				D593761313AE253D00E09C5A /* Supporting Files */,
+			);
+			path = mySecondIpad;
+			sourceTree = "<group>";
+		};
+		D593761313AE253D00E09C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D593761413AE253D00E09C5A /* mySecondIpad-Info.plist */,
+				D593761513AE253D00E09C5A /* InfoPlist.strings */,
+				D593761813AE253D00E09C5A /* mySecondIpad-Prefix.pch */,
+				D593761913AE253D00E09C5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D593763213AE253E00E09C5A /* mySecondIpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D593763913AE253E00E09C5A /* mySecondIpadTests.h */,
+				D593763B13AE253E00E09C5A /* mySecondIpadTests.m */,
+				D593763313AE253E00E09C5A /* Supporting Files */,
+			);
+			path = mySecondIpadTests;
+			sourceTree = "<group>";
+		};
+		D593763313AE253E00E09C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D593763413AE253E00E09C5A /* mySecondIpadTests-Info.plist */,
+				D593763513AE253E00E09C5A /* InfoPlist.strings */,
+				D593763813AE253E00E09C5A /* mySecondIpadTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D593760713AE253C00E09C5A /* mySecondIpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D593763F13AE253E00E09C5A /* Build configuration list for PBXNativeTarget "mySecondIpad" */;
+			buildPhases = (
+				D593760413AE253C00E09C5A /* Sources */,
+				D593760513AE253C00E09C5A /* Frameworks */,
+				D593760613AE253C00E09C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mySecondIpad;
+			productName = mySecondIpad;
+			productReference = D593760813AE253C00E09C5A /* mySecondIpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D593762B13AE253E00E09C5A /* mySecondIpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D593764213AE253E00E09C5A /* Build configuration list for PBXNativeTarget "mySecondIpadTests" */;
+			buildPhases = (
+				D593762713AE253E00E09C5A /* Sources */,
+				D593762813AE253E00E09C5A /* Frameworks */,
+				D593762913AE253E00E09C5A /* Resources */,
+				D593762A13AE253E00E09C5A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D593763113AE253E00E09C5A /* PBXTargetDependency */,
+			);
+			name = mySecondIpadTests;
+			productName = mySecondIpadTests;
+			productReference = D593762C13AE253E00E09C5A /* mySecondIpadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59375FF13AE253B00E09C5A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D593760213AE253B00E09C5A /* Build configuration list for PBXProject "mySecondIpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D59375FD13AE253B00E09C5A;
+			productRefGroup = D593760913AE253C00E09C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D593760713AE253C00E09C5A /* mySecondIpad */,
+				D593762B13AE253E00E09C5A /* mySecondIpadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D593760613AE253C00E09C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D593761713AE253D00E09C5A /* InfoPlist.strings in Resources */,
+				D593762013AE253D00E09C5A /* MainWindow.xib in Resources */,
+				D593762613AE253D00E09C5A /* mySecondIpadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D593762913AE253E00E09C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D593763713AE253E00E09C5A /* InfoPlist.strings in Resources */,
+				D593763A13AE253E00E09C5A /* mySecondIpadTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D593762A13AE253E00E09C5A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D593760413AE253C00E09C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D593761A13AE253D00E09C5A /* main.m in Sources */,
+				D593761D13AE253D00E09C5A /* mySecondIpadAppDelegate.m in Sources */,
+				D593762313AE253D00E09C5A /* mySecondIpadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D593762713AE253E00E09C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D593763C13AE253E00E09C5A /* mySecondIpadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D593763113AE253E00E09C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D593760713AE253C00E09C5A /* mySecondIpad */;
+			targetProxy = D593763013AE253E00E09C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D593761513AE253D00E09C5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D593761613AE253D00E09C5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D593761E13AE253D00E09C5A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D593761F13AE253D00E09C5A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D593762413AE253D00E09C5A /* mySecondIpadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D593762513AE253D00E09C5A /* en */,
+			);
+			name = mySecondIpadViewController.xib;
+			sourceTree = "<group>";
+		};
+		D593763513AE253E00E09C5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D593763613AE253E00E09C5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D593763D13AE253E00E09C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D593763E13AE253E00E09C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D593764013AE253E00E09C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySecondIpad/mySecondIpad-Prefix.pch";
+				INFOPLIST_FILE = "mySecondIpad/mySecondIpad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D593764113AE253E00E09C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySecondIpad/mySecondIpad-Prefix.pch";
+				INFOPLIST_FILE = "mySecondIpad/mySecondIpad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D593764313AE253E00E09C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mySecondIpad.app/mySecondIpad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySecondIpadTests/mySecondIpadTests-Prefix.pch";
+				INFOPLIST_FILE = "mySecondIpadTests/mySecondIpadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D593764413AE253E00E09C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mySecondIpad.app/mySecondIpad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySecondIpadTests/mySecondIpadTests-Prefix.pch";
+				INFOPLIST_FILE = "mySecondIpadTests/mySecondIpadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D593760213AE253B00E09C5A /* Build configuration list for PBXProject "mySecondIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D593763D13AE253E00E09C5A /* Debug */,
+				D593763E13AE253E00E09C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D593763F13AE253E00E09C5A /* Build configuration list for PBXNativeTarget "mySecondIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D593764013AE253E00E09C5A /* Debug */,
+				D593764113AE253E00E09C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D593764213AE253E00E09C5A /* Build configuration list for PBXNativeTarget "mySecondIpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D593764313AE253E00E09C5A /* Debug */,
+				D593764413AE253E00E09C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59375FF13AE253B00E09C5A /* Project object */;
+}
