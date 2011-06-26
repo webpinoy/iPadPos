@@ -39,20 +39,20 @@
 		D593760C13AE253C00E09C5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D593760E13AE253C00E09C5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D593761013AE253C00E09C5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D593761413AE253D00E09C5A /* mySecondIpad-Info.plist */ = {isa = PBXFileReference; path = "mySecondIpad-Info.plist"; sourceTree = "<group>"; };
+		D593761413AE253D00E09C5A /* mySecondIpad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mySecondIpad-Info.plist"; sourceTree = "<group>"; };
 		D593761613AE253D00E09C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D593761813AE253D00E09C5A /* mySecondIpad-Prefix.pch */ = {isa = PBXFileReference; path = "mySecondIpad-Prefix.pch"; sourceTree = "<group>"; };
+		D593761813AE253D00E09C5A /* mySecondIpad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mySecondIpad-Prefix.pch"; sourceTree = "<group>"; };
 		D593761913AE253D00E09C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D593761B13AE253D00E09C5A /* mySecondIpadAppDelegate.h */ = {isa = PBXFileReference; path = mySecondIpadAppDelegate.h; sourceTree = "<group>"; };
+		D593761B13AE253D00E09C5A /* mySecondIpadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mySecondIpadAppDelegate.h; sourceTree = "<group>"; };
 		D593761C13AE253D00E09C5A /* mySecondIpadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySecondIpadAppDelegate.m; sourceTree = "<group>"; };
 		D593761F13AE253D00E09C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D593762113AE253D00E09C5A /* mySecondIpadViewController.h */ = {isa = PBXFileReference; path = mySecondIpadViewController.h; sourceTree = "<group>"; };
+		D593762113AE253D00E09C5A /* mySecondIpadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mySecondIpadViewController.h; sourceTree = "<group>"; };
 		D593762213AE253D00E09C5A /* mySecondIpadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySecondIpadViewController.m; sourceTree = "<group>"; };
 		D593762513AE253D00E09C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/mySecondIpadViewController.xib; sourceTree = "<group>"; };
 		D593762C13AE253E00E09C5A /* mySecondIpadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySecondIpadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D593763413AE253E00E09C5A /* mySecondIpadTests-Info.plist */ = {isa = PBXFileReference; path = "mySecondIpadTests-Info.plist"; sourceTree = "<group>"; };
+		D593763413AE253E00E09C5A /* mySecondIpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mySecondIpadTests-Info.plist"; sourceTree = "<group>"; };
 		D593763613AE253E00E09C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D593763813AE253E00E09C5A /* mySecondIpadTests-Prefix.pch */ = {isa = PBXFileReference; path = "mySecondIpadTests-Prefix.pch"; sourceTree = "<group>"; };
+		D593763813AE253E00E09C5A /* mySecondIpadTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mySecondIpadTests-Prefix.pch"; sourceTree = "<group>"; };
 		D593763913AE253E00E09C5A /* mySecondIpadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mySecondIpadTests.h; sourceTree = "<group>"; };
 		D593763B13AE253E00E09C5A /* mySecondIpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySecondIpadTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
